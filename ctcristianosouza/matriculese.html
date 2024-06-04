@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c7a4e40478.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="matriculese.css">
+    <link rel="icon" href="img/logo.png">
+    <title>CTCristianoSouza</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-content">
+            <h1 class="logo">CTCristianoSouza</h1>
+            <nav class="header-menu">
+                <ul class="list-itens">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="https://linktr.ee/ct_cristianosouza">Contatos</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=552126957062&text=Bem-vindo+%C3%A0+CTCristianoSouza%21+%C3%89+um+prazer+t%C3%AA-lo+conosco.+Como+posso+ajudar+voc%C3%AA+hoje"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.instagram.com/ct_cristiano_souza/"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="titulo">
+            <h2>MATRICULE-SE AGORA!</h2>
+        </section>
+
+        <form action="#" method="get" onsubmit="abrirWhatsapp()">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required><br>
+            <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required><br>
+            <input type="email" name="email" id="email" placeholder="E-mail" required><br>
+            <textarea name="msg" id="msg" placeholder="Mensagem" cols="30" rows="5" required></textarea><br>
+            <button type="submit"><img src="img/whatsapp.svg" alt="Icone Whatsapp"><span>Enviar dados p/ Whatsapp</span>
+            </button>
+          </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
